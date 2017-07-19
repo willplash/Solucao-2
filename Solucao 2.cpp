@@ -45,7 +45,7 @@ public:
 	char d1110() { return 'e'; }
 	char d1111() { return 'f'; }
 
-	friend class Interpreter;
+	friend class Expression;
 };
 
 class Context {
@@ -96,7 +96,7 @@ public:
 		}
 	}
 
-	friend class Interpreter;
+	friend class Expression;
 };
 
 class Expression {
