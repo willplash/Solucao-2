@@ -13,7 +13,7 @@ Cada binário neste intervalo é representado por um caractere (char) em Hexadec
 Através das setenças acima, foi possível fazer o formalismo de Backus Naur presente no código, que descreve o problema e as regras para a formação de um hexadecimal ou um binário. Desta forma, o algoritmo foi desmembrado em 3 classes:
 
 Class Binario, que assume o papel de cada dígito e seus respectivos valores para a classe interpretadora.
-Class Context, que recebe e trata o input, contextualizando em seguida a classe interpretadora.
+Class Context, que recebe e trata o input, dando um contexto à classe interpretadora.
 Class Expression, responsável pela interpretação do problema no contexto (input).
 
 O algoritmo foi desenvolvido na linguagem C++, para o console Win32, na IDE Visual Studio 2017.
